@@ -7,6 +7,15 @@
 #                                                                                                              #
 ################################################################################################################
 
+#### <-- PROMPT --> ####
+# user@hostname workdir $ #
+
+# Colors #
+
+# white: user, 
+# green: hostname, 
+# blue: workdir, 
+# reset: symbols
 
 export PS1="%{$(tput setaf 0)%}%n%{$(tput setaf 0)%}@%{$(tput setaf 10)%}%m %{$(tput setaf 33)%}%1~ %{$(tput sgr0)%}$ "
 
