@@ -46,6 +46,11 @@ alias vim="$EDITOR"
 alias vi="$EDITOR"
 alias $BAR="$BAR -c ~/.config/$BAR/config.ini"
 
+##### Crypto ######
+alias sha1="sha1sum"
+alias sha256="sha256sum"
+alias sha512="sha512sum"
+
 ###### Filesystem ######
 alias grep="grep --color=auto"
 alias ls="ls -F --color=auto"
