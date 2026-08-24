@@ -71,6 +71,11 @@ alias zip-dir="zip -r"
 alias zap="zip -0 -r"
 alias szip="zip -9 -r"
 
+###### Crypto ######
+alias sha256="sha256sum"
+alias sha512="sha512sum"
+alias sha1="sha1sum"
+
 ###### Networking ######
 alias tor-url="curl -Ss --socks5-hostname $TOR_ADDR"
 alias i2pd-launch="i2pd --daemon"
