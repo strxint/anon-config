@@ -12,19 +12,19 @@
 
 ## ***Authors***
 
-- [@sleuth3301](https://www.github.com/sleuth3301) (archnon@protonmail.com)
+- [@strxint](https://www.github.com/strxint) (archnon@protonmail.com)
 
 
 ## ***Extra***
 
-- Check my anon scripts here: https://github.com/sleuth3301/lazy-anon
+- Check my anon scripts here: https://github.com/strxint/lazy-anon
 
 ## ***Installation***
 
 Clone repo
 
 ```bash
-  git clone https://github.com/sleuth3301/lazy-config
+  git clone https://github.com/strxint/lazy-config
 ```
 
 Get inside folder
