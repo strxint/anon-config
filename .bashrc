@@ -23,9 +23,9 @@ PS1="\[\033[97m\]\u\[\033[97m\]@\[\033[92m\]\h\[\033[97m\]: \[\033[94m\]\w \[\03
 
 export BROWSER="librewolf"
 export EDITOR="nvim"
-export TERMINAL="alacritty"
+export TERMINAL="st"
 export BAR="polybar"
-export SUMAN="sudo"
+export SUMAN="doas"
 
 #### Environment variables ####
 export TOR_ADDR="127.0.0.1:9150"
@@ -117,8 +117,5 @@ alias i="whoami"
 alias gut="git"
 alias sl="ls -F --color=auto"
 alias cd..="cd .."
-
-######## Fetch #########
-fastfetch --logo linux --color green
 
 ############# end #############
