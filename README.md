@@ -6,7 +6,6 @@
 ## ***Features***
 
 - Big amount of useful alias.
-- Plugins for zsh.
 - Simple prompt POSIX for sh.
 - Nerd Fonts required for polybar.
 
