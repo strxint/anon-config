@@ -17,20 +17,20 @@
 
 ## ***Extra***
 
-- Check my anon scripts here: https://github.com/strxint/lazy-anon
+- Check my anon scripts here: https://github.com/strxint/anon-scripts
 
 ## ***Installation***
 
 Clone repo
 
 ```bash
-  git clone https://github.com/strxint/lazy-config
+  git clone https://github.com/strxint/anon-config
 ```
 
 Get inside folder
 
 ```bash
-  cd lazy-config
+  cd anon-config
 ```
 
 Move everything to your personal config path, ex:
