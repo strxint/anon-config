@@ -21,7 +21,7 @@ PS1="\[\033[97m\]\u\[\033[97m\]@\[\033[92m\]\h\[\033[97m\]: \[\033[94m\]\w \[\03
 
 #### <-- apps --> ####
 
-export BROWSER="librewolf"
+export BROWSER="falkon"
 export EDITOR="nvim"
 export TERMINAL="st"
 export BAR="polybar"
