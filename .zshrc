@@ -21,11 +21,11 @@ export PS1="%{%F{7}%}%n%{%F{7}%}@%{%F{10}%}%m %{%F{33}%}%1~ %{%f%}$ "
 
 #### <-- apps --> ####
 
-export BROWSER="librewolf"
+export BROWSER="falkon"
 export EDITOR="nvim"
-export TERMINAL="alacritty"
+export TERMINAL="st"
 export BAR="polybar"
-export SUMAN="sudo"
+export SUMAN="doas"
 
 #### Environment variables ####
 export TOR_ADDR="127.0.0.1:9150"
@@ -117,12 +117,3 @@ alias i="whoami"
 alias gut="git"
 alias sl="ls -F --color=auto"
 alias cd..="cd .."
-
-######## Fetch #########
-fastfetch --logo linux --color green
-
-############# end #############ins #######
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-
-############# end #############
