@@ -1,4 +1,4 @@
-# ***Lazy-Config v1.0.0***
+# ***Anon-Config v1.0.0***
 
 **-> My Personal config files for: zsh, sh, bash and polybar <-**
 
