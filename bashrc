@@ -1,0 +1,124 @@
+#!/bin/bash
+
+################################################################################################################
+#                                                                                                              #
+# ~/.bashrc - CONFIG FOR THE BOURNE AGAIN SHELL.                                                               #
+# CODED BY: archnon@protonmail.com.                                                                            #
+#                                                                                                              #
+################################################################################################################
+
+#### <-- PROMPT --> ####
+# user@hostname workdir $ #
+
+# Colors #
+
+# white: user,
+# green: hostname,
+# blue: workdir,
+# reset: symbols
+
+PS1="\[\033[97m\]\u\[\033[97m\]@\[\033[92m\]\h\[\033[97m\]: \[\033[94m\]\w \[\033[0m\]\[\033[97m\]$ \[\033[0m\]"
+
+#### <-- apps --> ####
+
+export BROWSER="librewolf"
+export EDITOR="nvim"
+export TERMINAL="alacritty"
+export BAR="polybar"
+export SUMAN="sudo"
+
+#### Environment variables ####
+export TOR_ADDR="127.0.0.1:9150"
+export I2P_ADDR="http://127.0.0.1:4444"
+export BASH_CONFIG="~/.bashrc"
+export SH_CONFIG="~/.shrc"
+export ZSH_CONFIG="~/.zshrc"
+export CONFIG="~/.config"
+export ENV="$HOME/.shrc"
+
+######## Alias #########
+
+### apps ###
+alias term="$TERMINAL"
+alias browser="$BROWSER"
+alias nga="su"
+alias fucking="$SUMAN"
+alias vim="$EDITOR"
+alias vi="$EDITOR"
+alias $BAR="$BAR -c ~/.config/$BAR/config.ini"
+
+##### Filesystem ######
+alias doit="touch -f"
+alias grep="grep --color=auto"
+alias ls="ls -F --color=auto"
+alias ll="ls -lhF --color=auto"
+alias l="ls --color=auto -lFh"
+alias la="ls -lahF --color=auto"
+alias ..="cd .."
+alias ...="cd ../.."
+alias rd="rmdir"
+alias rmit="rm -rf"
+alias md="mkdir -p"
+alias du="du -h"
+alias free="free -h"
+alias top="top -s"
+alias egrep="grep --color=auto"
+alias fgrep="grep --color=auto"
+alias dir="dir --color=auto"
+alias rd="rmdir"
+alias rmit="rm -rf"
+alias df="df -h"
+alias tar="tar -cvf"
+alias untar="tar -xvf"
+alias zip-dir="zip -r"
+alias zap="zip -0 -r"
+alias szip="zip -9 -r"
+alias vdir="vdir --color=auto"
+
+###### Crypto ######
+alias sha256="sha256sum"
+alias sha512="sha512sum"
+alias sha1="sha1sum"
+alias sha224="sha224sum"
+alias sha3="sha3sum"
+alias sha384="sha384sum"
+
+###### Networking ######
+alias tor-url="curl -Ss --socks5-hostname $TOR_ADDR"
+alias i2pd-launch="i2pd --daemon"
+alias i2p-url="curl -Ss --proxy $I2P_ADDR"
+alias router="arp -a"
+alias torrc="anonman --print torrc"
+alias dnsc="anondns --set-dns-address"
+alias myip="jupiter --myip"
+alias changeid="jupiter --changeid"
+alias tor-start="jupiter --start"
+alias tor-stop="jupiter --stop"
+alias tor-enable="jupiter --boot-enable"
+alias tor-disable="jupiter --boot-disable"
+alias tor-restart="jupiter --restart"
+alias a="ip a"
+alias p="ss -tulnap"
+
+###### Short ######
+alias c="clear"
+alias r="reset"
+alias py="python"
+alias py2="python2"
+alias py3="python3"
+alias zshrc="source $ZSH_CONFIG"
+alias shrc="source $SH_CONFIG"
+alias bashrc="source $BASH_CONFIG"
+alias reload="$SHELL -l"
+alias g="git"
+alias i="whoami"
+
+### Common Typos ###
+alias gut="git"
+alias sl="ls -F --color=auto"
+alias cd..="cd .."
+
+######## Fetch #########
+fastfetch --logo linux --color green
+
+############# end #############
