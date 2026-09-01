@@ -23,7 +23,7 @@ PS1="\[\033[97m\]\u\[\033[0m\]@\[\033[90m\]\h \[\033[94m\]\w \[\033[0m\]\[\033[9
 
 export BROWSER="falkon"
 export EDITOR="nvim"
-export TERMINAL="st"
+export TERMINAL="urxvt"
 export BAR="polybar"
 export SUMAN="doas"
 
